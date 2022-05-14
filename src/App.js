@@ -1,9 +1,10 @@
 import React from "react";
+import GameBoard from "./components/snake-ladder/gameboard";
 
 function App() {
   return (
     <div className="App">
-      <p>simple game</p>
+      <GameBoard/>
     </div>
   );
 }

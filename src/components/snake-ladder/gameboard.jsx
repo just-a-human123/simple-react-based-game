@@ -1,5 +1,5 @@
 import React from "react"
-import Canvas from "./Canvas"
+import Canvas from "./canvas"
 
 const GameBoard = ({ board, ladders, snakes }) => {
 
