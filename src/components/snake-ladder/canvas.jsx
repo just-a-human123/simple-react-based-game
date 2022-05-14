@@ -12,4 +12,4 @@ const Canvas = ({drawItem}) => {
     return <canvas className="canvas" width="750" height="750" ref={canvasRef}/>
 }
 
-export default Canvas
+export default Canvas;
