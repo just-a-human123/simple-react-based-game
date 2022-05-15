@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Description from "./description";
+import Symbol from "../simbol";
 
 const DescDisplay = () => {
   const [showDisplay, setShowDisplay] = useState(false);
@@ -24,7 +25,7 @@ const DescDisplay = () => {
         }}
         onClick={onClick}
       >
-        Rules
+        <Symbol />
       </button>
       {showDisplay ? <Description /> : null}
     </div>
