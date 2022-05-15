@@ -44,7 +44,16 @@ const Dice = ({ getRoll }) => {
       </div>
       <br />
       <div className="dice-container">
-        <button className="nes-btn is-warning" onClick={onClick}>
+        <button
+          style={{
+            backgroundColor: "bisque",
+            boxShadow: "1px 2px 9px #F4AAB9",
+            margin: "4em",
+            padding: "1em",
+          }}
+          className="nes-btn is-warning"
+          onClick={onClick}
+        >
           Roll Dice
         </button>
       </div>
